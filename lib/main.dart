@@ -1,3 +1,4 @@
+import 'package:beehive/responsive/responsive.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
-      home: Text('hello world'),
+      home: ResponsiveLayout(mobileScreenLayout: mobileScreenLayout, webScreenLayout: webScreenLayout),
     );
   }
 }

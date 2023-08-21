@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "657947704111",
+    "project_id": "beehive-tutorial",
+    "storage_bucket": "beehive-tutorial.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:657947704111:android:29b4766f60c3f825983fda",
+        "android_client_info": {
+          "package_name": "com.example.beehive"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "657947704111-iqcu85o27vh5r6vvihqsh7mtpvlihi8j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfNM7jCBYXOpsIJuAHCf7ksb8Wc3USJF0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "657947704111-iqcu85o27vh5r6vvihqsh7mtpvlihi8j.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "657947704111-iihlpa96phamj53g51e1rboujah3376j.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.beehive"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

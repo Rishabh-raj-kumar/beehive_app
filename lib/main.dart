@@ -1,4 +1,6 @@
+import 'package:beehive/responsive/mobile_screen_layout.dart';
 import 'package:beehive/responsive/responsive.dart';
+import 'package:beehive/responsive/web_screen_layout.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,7 +16,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
-      home: ResponsiveLayout(mobileScreenLayout: mobileScreenLayout, webScreenLayout: webScreenLayout),
+      home: ResponsiveLayout(mobileScreenLayout: MobileScreenLayout(), webScreenLayout: WebScreenLayout()),
     );
   }
 }
